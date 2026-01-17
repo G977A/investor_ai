@@ -159,7 +159,7 @@ if ticker_symbol:
                     "fcf_reported": fcf_rep,
                     "sbc": sbc
                 }
-                analysis = get_llm_analysis(ticker_symbol, context_data)
+                analysis = get_ai_analysis(ticker_symbol, context_data)
                 st.info(analysis)
 
             # Peer Comparison Table
@@ -187,4 +187,5 @@ if ticker_symbol:
 st.markdown("---")
 st.caption(
     "Disclaimer: This tool is for educational purposes only. AI and DCF models can be wrong. Consult a financial advisor.")
+
 
