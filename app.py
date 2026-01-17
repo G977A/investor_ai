@@ -64,7 +64,7 @@ def equity_dcf(fcf0, shares, coe, g, tg):
 def get_ai_analysis(ticker, context):
     try:
         genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-2.5-flash')
         prompt = f"""
         You are a cynical, data-driven Value Investor. Analyze {ticker} using this data:
         {context}
@@ -187,5 +187,6 @@ if ticker_symbol:
 st.markdown("---")
 st.caption(
     "Disclaimer: This tool is for educational purposes only. AI and DCF models can be wrong. Consult a financial advisor.")
+
 
 
