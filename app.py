@@ -15,7 +15,7 @@ st.markdown("""
     .reportview-container { background: #0e1117; }
     .stMetric { background-color: #161b22; border: 1px solid #30363d; padding: 15px; border-radius: 10px; }
     </style>
-    """, unsafe_content_label=True)
+    """, unsafe_allow_html=True)
 
 
 # ============================================================
@@ -187,3 +187,4 @@ if ticker_symbol:
 st.markdown("---")
 st.caption(
     "Disclaimer: This tool is for educational purposes only. AI and DCF models can be wrong. Consult a financial advisor.")
+
