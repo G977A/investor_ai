@@ -1,0 +1,5 @@
+streamlit
+yfinance
+google-generativeai
+pandas
+numpy
