@@ -1,7 +1,5 @@
+streamlit
 yfinance
-curl_cffi
 pandas
 numpy
-streamlit
 google-generativeai
-altair.vegalite.v4
