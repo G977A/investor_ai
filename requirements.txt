@@ -5,3 +5,4 @@ numpy
 streamlit
 google-generativeai
 altair.vegalite.v4
+pip install --upgrade pip
